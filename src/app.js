@@ -1,5 +1,6 @@
 
-import {express, cors} from "express"
+import express from "express"
+import cors from 'cors'
 import usersRoutes from './routes/users.routes.js'
 import indexRoutes from './routes/index.routes.js'
 
